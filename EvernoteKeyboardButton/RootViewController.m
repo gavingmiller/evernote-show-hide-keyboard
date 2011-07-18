@@ -3,7 +3,7 @@
 //  EvernoteKeyboardButton
 //
 //  Created by Gavin Miller on 11-07-17.
-//  Copyright 2011 Quadrus. All rights reserved.
+//  Copyright 2011 RANDOMTYPE. All rights reserved.
 //
 
 #import "RootViewController.h"
