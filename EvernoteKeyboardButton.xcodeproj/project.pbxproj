@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B90329413D39FFA0097CAE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B90329313D39FFA0097CAE0 /* UIKit.framework */; };
+		0B90329613D39FFA0097CAE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B90329513D39FFA0097CAE0 /* Foundation.framework */; };
+		0B90329813D39FFA0097CAE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B90329713D39FFA0097CAE0 /* CoreGraphics.framework */; };
+		0B90329E13D39FFA0097CAE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B90329C13D39FFA0097CAE0 /* InfoPlist.strings */; };
+		0B9032A113D39FFA0097CAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9032A013D39FFA0097CAE0 /* main.m */; };
+		0B9032A413D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9032A313D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.m */; };
+		0B9032A713D39FFA0097CAE0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032A513D39FFA0097CAE0 /* MainWindow.xib */; };
+		0B9032AA13D39FFA0097CAE0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9032A913D39FFA0097CAE0 /* RootViewController.m */; };
+		0B9032AD13D39FFA0097CAE0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032AB13D39FFA0097CAE0 /* RootViewController.xib */; };
+		0B9032C313D3A14F0097CAE0 /* edit-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032BC13D3A14F0097CAE0 /* edit-button-bg.png */; };
+		0B9032C413D3A14F0097CAE0 /* edit-button-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032BD13D3A14F0097CAE0 /* edit-button-bg@2x.png */; };
+		0B9032C513D3A14F0097CAE0 /* edit-button-icon-keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032BE13D3A14F0097CAE0 /* edit-button-icon-keyboard.png */; };
+		0B9032C613D3A14F0097CAE0 /* edit-button-icon-keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032BF13D3A14F0097CAE0 /* edit-button-icon-keyboard@2x.png */; };
+		0B9032C713D3A14F0097CAE0 /* edit-button-icon-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032C013D3A14F0097CAE0 /* edit-button-icon-up.png */; };
+		0B9032C813D3A14F0097CAE0 /* edit-button-icon-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032C113D3A14F0097CAE0 /* edit-button-icon-up@2x.png */; };
+		0B9032C913D3A14F0097CAE0 /* edit-drawer-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9032C213D3A14F0097CAE0 /* edit-drawer-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B90328F13D39FFA0097CAE0 /* EvernoteKeyboardButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteKeyboardButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B90329313D39FFA0097CAE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B90329513D39FFA0097CAE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B90329713D39FFA0097CAE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B90329B13D39FFA0097CAE0 /* EvernoteKeyboardButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EvernoteKeyboardButton-Info.plist"; sourceTree = "<group>"; };
+		0B90329D13D39FFA0097CAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B90329F13D39FFA0097CAE0 /* EvernoteKeyboardButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteKeyboardButton-Prefix.pch"; sourceTree = "<group>"; };
+		0B9032A013D39FFA0097CAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B9032A213D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvernoteKeyboardButtonAppDelegate.h; sourceTree = "<group>"; };
+		0B9032A313D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvernoteKeyboardButtonAppDelegate.m; sourceTree = "<group>"; };
+		0B9032A613D39FFA0097CAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0B9032A813D39FFA0097CAE0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0B9032A913D39FFA0097CAE0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B9032AC13D39FFA0097CAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0B9032BC13D3A14F0097CAE0 /* edit-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-bg.png"; sourceTree = "<group>"; };
+		0B9032BD13D3A14F0097CAE0 /* edit-button-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-bg@2x.png"; sourceTree = "<group>"; };
+		0B9032BE13D3A14F0097CAE0 /* edit-button-icon-keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-icon-keyboard.png"; sourceTree = "<group>"; };
+		0B9032BF13D3A14F0097CAE0 /* edit-button-icon-keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-icon-keyboard@2x.png"; sourceTree = "<group>"; };
+		0B9032C013D3A14F0097CAE0 /* edit-button-icon-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-icon-up.png"; sourceTree = "<group>"; };
+		0B9032C113D3A14F0097CAE0 /* edit-button-icon-up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-button-icon-up@2x.png"; sourceTree = "<group>"; };
+		0B9032C213D3A14F0097CAE0 /* edit-drawer-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-drawer-bg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B90328C13D39FFA0097CAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B90329413D39FFA0097CAE0 /* UIKit.framework in Frameworks */,
+				0B90329613D39FFA0097CAE0 /* Foundation.framework in Frameworks */,
+				0B90329813D39FFA0097CAE0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B90328413D39FF90097CAE0 = {
+			isa = PBXGroup;
+			children = (
+				0B90329913D39FFA0097CAE0 /* EvernoteKeyboardButton */,
+				0B90329213D39FFA0097CAE0 /* Frameworks */,
+				0B90329013D39FFA0097CAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B90329013D39FFA0097CAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B90328F13D39FFA0097CAE0 /* EvernoteKeyboardButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B90329213D39FFA0097CAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B90329313D39FFA0097CAE0 /* UIKit.framework */,
+				0B90329513D39FFA0097CAE0 /* Foundation.framework */,
+				0B90329713D39FFA0097CAE0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B90329913D39FFA0097CAE0 /* EvernoteKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				0B9032B313D3A0BA0097CAE0 /* Images */,
+				0B9032A213D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.h */,
+				0B9032A313D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.m */,
+				0B9032A513D39FFA0097CAE0 /* MainWindow.xib */,
+				0B9032A813D39FFA0097CAE0 /* RootViewController.h */,
+				0B9032A913D39FFA0097CAE0 /* RootViewController.m */,
+				0B9032AB13D39FFA0097CAE0 /* RootViewController.xib */,
+				0B90329A13D39FFA0097CAE0 /* Supporting Files */,
+			);
+			path = EvernoteKeyboardButton;
+			sourceTree = "<group>";
+		};
+		0B90329A13D39FFA0097CAE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B90329B13D39FFA0097CAE0 /* EvernoteKeyboardButton-Info.plist */,
+				0B90329C13D39FFA0097CAE0 /* InfoPlist.strings */,
+				0B90329F13D39FFA0097CAE0 /* EvernoteKeyboardButton-Prefix.pch */,
+				0B9032A013D39FFA0097CAE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B9032B313D3A0BA0097CAE0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B9032BC13D3A14F0097CAE0 /* edit-button-bg.png */,
+				0B9032BD13D3A14F0097CAE0 /* edit-button-bg@2x.png */,
+				0B9032BE13D3A14F0097CAE0 /* edit-button-icon-keyboard.png */,
+				0B9032BF13D3A14F0097CAE0 /* edit-button-icon-keyboard@2x.png */,
+				0B9032C013D3A14F0097CAE0 /* edit-button-icon-up.png */,
+				0B9032C113D3A14F0097CAE0 /* edit-button-icon-up@2x.png */,
+				0B9032C213D3A14F0097CAE0 /* edit-drawer-bg.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B90328E13D39FFA0097CAE0 /* EvernoteKeyboardButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9032B013D39FFA0097CAE0 /* Build configuration list for PBXNativeTarget "EvernoteKeyboardButton" */;
+			buildPhases = (
+				0B90328B13D39FFA0097CAE0 /* Sources */,
+				0B90328C13D39FFA0097CAE0 /* Frameworks */,
+				0B90328D13D39FFA0097CAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteKeyboardButton;
+			productName = EvernoteKeyboardButton;
+			productReference = 0B90328F13D39FFA0097CAE0 /* EvernoteKeyboardButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B90328613D39FF90097CAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Quadrus;
+			};
+			buildConfigurationList = 0B90328913D39FF90097CAE0 /* Build configuration list for PBXProject "EvernoteKeyboardButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B90328413D39FF90097CAE0;
+			productRefGroup = 0B90329013D39FFA0097CAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B90328E13D39FFA0097CAE0 /* EvernoteKeyboardButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B90328D13D39FFA0097CAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B90329E13D39FFA0097CAE0 /* InfoPlist.strings in Resources */,
+				0B9032A713D39FFA0097CAE0 /* MainWindow.xib in Resources */,
+				0B9032AD13D39FFA0097CAE0 /* RootViewController.xib in Resources */,
+				0B9032C313D3A14F0097CAE0 /* edit-button-bg.png in Resources */,
+				0B9032C413D3A14F0097CAE0 /* edit-button-bg@2x.png in Resources */,
+				0B9032C513D3A14F0097CAE0 /* edit-button-icon-keyboard.png in Resources */,
+				0B9032C613D3A14F0097CAE0 /* edit-button-icon-keyboard@2x.png in Resources */,
+				0B9032C713D3A14F0097CAE0 /* edit-button-icon-up.png in Resources */,
+				0B9032C813D3A14F0097CAE0 /* edit-button-icon-up@2x.png in Resources */,
+				0B9032C913D3A14F0097CAE0 /* edit-drawer-bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B90328B13D39FFA0097CAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9032A113D39FFA0097CAE0 /* main.m in Sources */,
+				0B9032A413D39FFA0097CAE0 /* EvernoteKeyboardButtonAppDelegate.m in Sources */,
+				0B9032AA13D39FFA0097CAE0 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B90329C13D39FFA0097CAE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B90329D13D39FFA0097CAE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B9032A513D39FFA0097CAE0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B9032A613D39FFA0097CAE0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0B9032AB13D39FFA0097CAE0 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B9032AC13D39FFA0097CAE0 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B9032AE13D39FFA0097CAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B9032AF13D39FFA0097CAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0B9032B113D39FFA0097CAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteKeyboardButton/EvernoteKeyboardButton-Prefix.pch";
+				INFOPLIST_FILE = "EvernoteKeyboardButton/EvernoteKeyboardButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B9032B213D39FFA0097CAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteKeyboardButton/EvernoteKeyboardButton-Prefix.pch";
+				INFOPLIST_FILE = "EvernoteKeyboardButton/EvernoteKeyboardButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B90328913D39FF90097CAE0 /* Build configuration list for PBXProject "EvernoteKeyboardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9032AE13D39FFA0097CAE0 /* Debug */,
+				0B9032AF13D39FFA0097CAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9032B013D39FFA0097CAE0 /* Build configuration list for PBXNativeTarget "EvernoteKeyboardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9032B113D39FFA0097CAE0 /* Debug */,
+				0B9032B213D39FFA0097CAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B90328613D39FF90097CAE0 /* Project object */;
+}
