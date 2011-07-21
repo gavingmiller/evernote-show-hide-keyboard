@@ -42,4 +42,4 @@ SHOULDN'T HAPPEN.
 
 [1]: http://creativecommons.org/licenses/by/2.5/ca/
 [2]: http://rtlabs.ca/mydomains/
-[3]: http://www.yycapps.com/tbd
+[3]: http://www.yycapps.com/2011/07/creating-a-keyboard-show-hide-button
